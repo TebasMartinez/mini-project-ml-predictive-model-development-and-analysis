@@ -1,1 +1,1 @@
-# mini-project-ml-predictive-model-development-and-analysis
+# Mini Project: ML - Predictive Model Development and Analysis
