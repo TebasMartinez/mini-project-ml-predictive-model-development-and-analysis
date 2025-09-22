@@ -19,10 +19,7 @@ After importing the data and an initial exploration to understand it, the data w
         - Accuracy score: 0.97
         - True positives / negatives: 1202 / 18254
         - False positives / negatives: 541 / 0
-    - With scaled data:
-        - Accuracy score: 0.97
-        - True positives / negatives: 1202 / 18254
-        - False positives / negatives: 541 / 0
+    - No need to test scaled data, as decision tree gives the same result with original or scaled data.
 - Logistic Regression:
     - With original data:
         - Accuracy score: 0.96
@@ -34,4 +31,4 @@ After importing the data and an initial exploration to understand it, the data w
         - False positives / negatives: 599 / 162
 
 ## Conclusions
-The best model for this case is the Decision Tree with 3 levels of depth, since it's the one with the best accuracy score, and doesn't give any false negatives in the test group. Given that results are equal with original or scaled data, using original data would be advised.
+The best model for this case is the Decision Tree with 3 levels of depth, since it's the one with the best accuracy score, and doesn't give any false negatives in the test group.
